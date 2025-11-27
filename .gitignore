@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage*
+
+# Mypy / Ruff
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local environment / logs
+.env
+.env.*
+*.log
